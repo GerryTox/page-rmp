@@ -1,0 +1,44 @@
+/* Estilo para la sección 'Nosotros' */
+#nosotros {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+}
+
+.nosotros-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.nosotros-texto {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+}
+
+.nosotros-texto h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.nosotros-texto p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.nosotros-imagen {
+    flex: 1;
+    min-width: 300px;
+}
+
+.nosotros-imagen img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

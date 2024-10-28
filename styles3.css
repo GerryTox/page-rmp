@@ -1,0 +1,70 @@
+/* ===== Estilos de la Sección Servicios ===== */
+#servicios {
+    background-color: #e9f5ee;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.servicios-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicios-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.servicios-lista {
+    list-style-type: disc; /* Estilo de la lista */
+    padding-left: 0; /* Ajustar si es necesario */
+    text-align: left; /* Alinear la lista a la izquierda */
+    display: inline-block; /* Mantener centrado en la sección */
+}
+
+.servicios-lista li {
+    font-size: 1.2rem;
+    color: #007b3e; /* Tono verde para los ítems */
+    margin-bottom: 10px;
+}
+
+/* ===== Estilos de la Sección Servicios ===== */
+#servicios {
+    background-color: #e9f5ee;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.servicios-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.servicios-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.servicios-lista {
+    list-style-type: none; /* Quitar los puntos de la lista */
+    padding-left: 0;
+    text-align: left;
+    display: inline-block; /* Mantener centrado en la sección */
+}
+
+.servicios-lista li {
+    margin-bottom: 10px;
+}
+
+.servicios-lista a {
+    text-decoration: none; /* Quitar subrayado */
+    color: #007b3e; /* Tono verde para los enlaces */
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.servicios-lista a:hover {
+    color: #00522d; /* Cambiar color al pasar el ratón por encima */
+}
